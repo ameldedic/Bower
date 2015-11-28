@@ -1,0 +1,68 @@
++---------------------------------+
+| Bower - Package Manager for Web |
++---------------------------------+
+
+Bower is a command line utility and it requires:
+-- node, npm: https://nodejs.org/en/
+-- http://git-scm.com/
+   To use Bower on Windows, you must install msysgit correctly:
+   https://github.com/bower/bower/wiki/Troubleshooting
+   
+
+Install bower:
+********************
+npm install -g bower
+********************
+
+Create new directory:
+***********
+C:\>mkdir b
+***********
+
+Go inside b directory:   
+********
+C:\>cd b
+********
+
+Open it in brackets:
+***************
+C:\b>brackets .
+***************
+
+Install some packages, let's start with jQuery:
+************************
+C:\b>bower search jquery
+************************
+
+let's install jquery-ui:
+****************************
+C:\b>bower install jquery-ui
+****************************
+
+let's install bootstrap:
+****************************
+C:\b>bower install bootstrap
+****************************
+
+The command above will install bootstrap 3.
+let's uninstall bootstrap 3 and install bootstrap 4:
+****************************************
+C:\b>bower uninstall bootstrap
+C:\b>bower install bootstrap#4.0.0-alpha
+****************************************
+
+you can install more than one package at once:
+****************************************
+C:\b>bower install bootstrap-css angular
+****************************************
+
+you can create json that will keep track of the packages:
+***************
+C:\b>bower init
+***************
+
+if you delete all packages, use json to recreate
+the combination of packages you had:
+******************
+C:\b>bower install
+******************
