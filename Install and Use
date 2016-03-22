@@ -4,6 +4,7 @@
 
 Bower is a command line utility and it requires:
 -- node, npm: https://nodejs.org/en/
+   Node.js is JavaScript framework for server side applications.
 -- Git: http://git-scm.com/
    To use Bower on Windows, you must install msysgit correctly:
    https://github.com/bower/bower/wiki/Troubleshooting
